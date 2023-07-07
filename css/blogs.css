@@ -1,0 +1,160 @@
+body {
+  background-color: #f5f5db;
+}
+
+#nav {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  background-color: lightpink;
+  margin-top: 20px;
+}
+
+#search {
+  width: 200px;
+}
+
+#category {
+  width: 200px;
+}
+
+#date {
+  width: 200px;
+}
+
+#all-blogs {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  background-color: turquoise;
+  margin-top: -7px;
+}
+
+a {
+  text-decoration: none;
+  color: #3a63f7;
+  font-size: large;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#all-blogs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#carditem {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+#content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+#content > button,
+#signout {
+  padding: 10px 15px 10px 15px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#add_btn {
+  padding: 10px 15px 10px 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  width: 50%;
+  margin: auto;
+  cursor: pointer;
+}
+
+myBtn {
+  padding: 10px 15px 10px 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  width: 50%;
+  margin: auto;
+  cursor: pointer;
+}

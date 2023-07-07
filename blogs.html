@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://www.freeiconspng.com/thumbs/blogger-logo-icon-png/blogger-logo-icon-png-22.png"
+    />
+    <link rel="stylesheet" href="./css/blogs.css" />
+    <title>Blogs Page of Blog App</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="./index.html">Sign Up</a>
+      <a href="./signin.html">Sign In</a>
+      <a href="./addblogs.html">Add Blogs</a>
+      <a href="./blogs.html">Blogs</a>
+      <a href="./leaderboard.html">Leaderboard</a>
+    </nav>
+    <div id="nav">
+      <input type="text" placeholder="Search for blogs....." id="search" />
+      <select name="Category" id="category">
+        Category
+        <option value="Selectcategory">Filter By Category</option>
+        <option value="Business">Business</option>
+        <option value="Tech">Tech</option>
+        <option value="Lifestyle">Lifestyle</option>
+        <option value="Entertainment">Entertainment</option>
+      </select>
+      <select name="" id="date">
+        Date
+        <option value="sortbydate">Sort By Date</option>
+        <option value="Ascending">Ascending</option>
+        <option value="Descending">Descending</option>
+      </select>
+      <button id="signout">Sign Out</button>
+    </div>
+
+    <div id="all-blogs"></div>
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <input type="text" placeholder="Username" id="modal_username" />
+        <input type="text" placeholder="Comment" id="modal-comment" />
+        <button id="add_btn">Post Comment</button>
+      </div>
+    </div>
+
+    <div id="pagination"></div>
+  </body>
+</html>
+<script src="./scripts/blogs.js"></script>

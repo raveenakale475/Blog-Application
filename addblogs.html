@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://www.freeiconspng.com/thumbs/blogger-logo-icon-png/blogger-logo-icon-png-22.png"
+    />
+    <link rel="stylesheet" href="./css/addblogs.css" />
+    <title>Add Blogs Page of Blog App</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="./index.html">Sign Up</a>
+      <a href="./signin.html">Sign In</a>
+      <a href="./addblogs.html">Add Blogs</a>
+      <a href="./blogs.html">Blogs</a>
+      <a href="./leaderboard.html">Leaderboard</a>
+    </nav>
+    <form id="form">
+      <label for="Username">Username</label>
+      <input type="text" id="username" placeholder="Enter Username here" />
+      <label for="Title">Title</label>
+      <input type="text" id="title" placeholder="Enter Title here" />
+      <label for="Content">Content</label>
+      <input type="text" id="content" placeholder="Enter Content here" />
+      <label for="Category">Category</label>
+      <select name="Category" id="category">
+        Category
+        <option value="Selectcategory">Select Category</option>
+        <option value="Business">Business</option>
+        <option value="Tech">Tech</option>
+        <option value="Lifestyle">Lifestyle</option>
+        <option value="Entertainment">Entertainment</option>
+      </select>
+      <label for="Date">Date</label>
+      <input type="date" id="date" />
+      <button id="submit">Post Blog</button>
+    </form>
+  </body>
+</html>
+<script src="./scripts/addblogs.js"></script>

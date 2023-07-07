@@ -1,0 +1,71 @@
+body {
+  background-color: #feedf1;
+}
+
+#form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 20%;
+  margin: auto;
+  padding: 25px;
+  margin-top: 100px;
+  background-color: #f0ffff;
+}
+
+#submit {
+  background-color: #3a63f7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  width: 40%;
+  margin-left: 80px;
+}
+
+input {
+  padding: 7px 10px;
+}
+
+#account {
+  text-align: center;
+
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: #3a63f7;
+}
+
+#do {
+  margin-top: 40px;
+  text-align: center;
+  font-size: large;
+}
+a {
+  text-decoration: none;
+  color: #3a63f7;
+  font-size: large;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  background-color: turquoise;
+  margin-top: -7px;
+}
